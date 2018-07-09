@@ -10,7 +10,7 @@
 
 class CreateCostumes < ActiveRecord::Migrations[5.1]
   def change
-    create table :students do |t|
+    create table :costumes do |t|
       t.string :name
     end
   end
