@@ -5,6 +5,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
     create_table :costume_stores do |t|
       t.string :name
       t.string :location
+      t.boolean :still_in_business
     end
   end
 end
